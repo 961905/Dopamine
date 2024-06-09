@@ -6,6 +6,7 @@ on:
 env:
   VERSION: '2.1.4'
   BUNDLEID: 'com.zqbb.Dopamine'
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
